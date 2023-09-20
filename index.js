@@ -30,7 +30,7 @@ bot.on('message', async event => {
           //   info['毛色'],
           //   info['飼主姓名'],
           //   info['連絡電話'],
-          //   info['圖檔位址'],
+          //   info['PICTURE'],
           // ])
           event.reply({
             type: 'flex',
