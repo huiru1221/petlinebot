@@ -39,13 +39,13 @@ bot.on('message', async event => {
               type: 'bubble',
               hero: {
                 type: 'image',
-                url: info['圖檔位址'],
+                url: info['PICTURE'],
                 size: 'full',
                 aspectRatio: '20:13',
                 aspectMode: 'cover',
                 action: {
                   type: 'uri',
-                  uri: info['圖檔位址']
+                  uri: info['PICTURE']
                 }
               },
               body: {
